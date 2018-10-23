@@ -1,27 +1,22 @@
-# SynchronizeTokenPatternFront
+# OAuth Authorization
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+Repository includes how to use Synchronize Token Pattern in an Angular environment.
+## Installation
+* clone the repository to you local machine
+* Open SynchronizeTokenPattern-Front folder
+```sh
+$ npm install
+```
 
-## Development server
+* Replace the `client_id` with your own client ID
+* Replace the `FILE_ID` with your own file id you obtained by creating a folder in your Google Drive.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run the solution
+```sh
+$ ng serve
+```
+Open `http://localhost:4200` from the Browser
 
-## Code scaffolding
+Login using your google credentials,
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+User can put a transition amount and send & if the Synchronize Token process is success a success message will display
